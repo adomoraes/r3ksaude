@@ -4,7 +4,6 @@ import Footer from "../Footer"
 export default function OQueE() {
 	return (
 		<>
-			{" "}
 			<AnimatedPage>
 				<div className='bg-rose-600 min-h-screen'>
 					<div
@@ -34,7 +33,11 @@ export default function OQueE() {
 											alt='Logo'
 											className='mx-auto md:mx-0'
 										/>
-										<p className='mt-6 text-lg leading-8 text-white w-4/5'>
+										<h1 className='md:absolute md:block md:w-[auto] lg:w-[160%] md:bottom-[5%] order-2 md:order-1 open-sans-800 mt-6 text-6xl font-bold tracking-tight text-white md:text-[5rem] lg:text-[7.25rem] md:leading-[4.5rem] lg:leading-[5.5rem]'>
+											Sua saúde, <br />
+											nossa especialidade.
+										</h1>
+										<p className='order-1 md:order-2 mt-6 text-lg leading-8 text-white w-4/5'>
 											<strong>
 												O R3K nasceu em outubro de 2023, do desejo dos médicos
 												Renato Kfouri e Rosana Richtmann
@@ -42,16 +45,6 @@ export default function OQueE() {
 											de fornecer informações atualizadas e confiáveis à
 											população sobre saúde.
 										</p>
-										<h1
-											style={{
-												position: "absolute",
-												display: "block",
-												width: "160%",
-											}}
-											className='open-sans-800 mt-6 text-4xl font-bold tracking-tight text-white md:text-[7.25rem] md:leading-[5.5rem]'>
-											Sua saúde, <br />
-											nossa especialidade.
-										</h1>
 									</div>
 								</div>
 								<div className='md:basis-2/5 p-4'>
