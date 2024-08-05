@@ -27,7 +27,7 @@ export default function OQueE() {
 											alt='Logo'
 											className='mx-auto md:mx-0'
 										/>
-										<h1 className='md:absolute md:block md:w-[auto] lg:w-[160%] md:bottom-[5%] order-2 md:order-1 open-sans-800 mt-6 text-6xl font-bold tracking-tight text-white md:text-[5rem] lg:text-[7.25rem] md:leading-[4.5rem] lg:leading-[5.5rem]'>
+										<h1 className='md:absolute md:block md:w-[auto] lg:w-[160%] md:bottom-[5%] order-2 md:order-1 open-sans-800 mt-6 text-5xl font-bold tracking-tight text-white md:text-[5rem] lg:text-[7.25rem] md:leading-[4.5rem] lg:leading-[5.5rem]'>
 											Sua saúde, <br />
 											nossa especialidade.
 										</h1>
