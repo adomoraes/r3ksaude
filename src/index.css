@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800 */
-
+html {
+	scroll-behavior: smooth;
+}
 .open-sans-100 {
 	font-family: "Open Sans", sans-serif;
 	font-optical-sizing: auto;
