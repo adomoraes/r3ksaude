@@ -26,3 +26,16 @@ h3,
 strong {
 	font-weight: 800;
 }
+
+.bg-rose-600 {
+	background-color: #fd0836;
+}
+.bg-blue-950 {
+	background-color: #16012f;
+}
+.text-rose-600 {
+	color: #fd0836;
+}
+.text-blue-950 {
+	color: #16012f;
+}

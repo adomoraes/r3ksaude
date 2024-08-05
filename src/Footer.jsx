@@ -15,7 +15,7 @@ export default function Footer() {
 	const handleMobileMenuClose = () => setMobileMenuOpen(false)
 
 	return (
-		<footer className='bg-rose-700 text-white'>
+		<footer className='bg-rose-600 text-white'>
 			<div className='container mx-auto px-6 lg:px-8 py-6'>
 				<div className='flex flex-col lg:flex-row items-center justify-between'>
 					<div className='flex lg:flex-1 mb-4 lg:mb-0'>
