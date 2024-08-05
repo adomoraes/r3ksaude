@@ -13,7 +13,7 @@ import Cases from "./pages/Cases"
 function AppRouter() {
 	return (
 		// <Router basename='/r3k/'>
-		<HashRouter>
+		<HashRouter basename='/r3k/'>
 			<Navbar />
 			<Routes>
 				<Route path='/' element={<OQueE />} />
