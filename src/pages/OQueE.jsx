@@ -6,13 +6,7 @@ export default function OQueE() {
 		<>
 			<AnimatedPage>
 				<div className='bg-rose-600 min-h-screen'>
-					<div
-						className='relative isolate px-6 pt-14 lg:px-8 h-full overflow-hidden bg-center bg-no-repeat'
-						style={{
-							backgroundImage: "url('./assets/bgHeroMic.png')",
-							backgroundSize: "auto",
-							backgroundPosition: "bottom",
-						}}>
+					<div className='bg-[url("./assets/bgHeroMic.png")] md:bg-auto bg-[length:20%] bg-bottom relative isolate px-6 pt-14 lg:px-8 h-full overflow-hidden bg-no-repeat'>
 						<div
 							aria-hidden='true'
 							className='absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'>
@@ -33,7 +27,7 @@ export default function OQueE() {
 											alt='Logo'
 											className='mx-auto md:mx-0'
 										/>
-										<h1 className='md:absolute md:block md:w-[auto] lg:w-[160%] md:bottom-[5%] order-2 md:order-1 open-sans-800 mt-6 text-6xl font-bold tracking-tight text-white md:text-[5rem] lg:text-[7.25rem] md:leading-[4.5rem] lg:leading-[5.5rem]'>
+										<h1 className='md:absolute md:block md:w-[auto] lg:w-[160%] md:bottom-[5%] order-2 md:order-1 open-sans-800 mt-6 text-5xl font-bold tracking-tight text-white md:text-[5rem] lg:text-[7.25rem] md:leading-[4.5rem] lg:leading-[5.5rem]'>
 											Sua saúde, <br />
 											nossa especialidade.
 										</h1>
