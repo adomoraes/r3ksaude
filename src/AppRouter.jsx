@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import {
+	BrowserRouter as Router,
+	Route,
+	Routes,
+	HashRouter,
+} from "react-router-dom"
 import Navbar from "./Navbar"
 import OQueE from "./pages/OQueE"
 import QuemSomos from "./pages/QuemSomos"
@@ -7,7 +12,8 @@ import Cases from "./pages/Cases"
 
 function AppRouter() {
 	return (
-		<Router basename='/r3k/'>
+		// <Router basename='/r3k/'>
+		<HashRouter>
 			<Navbar />
 			<Routes>
 				<Route path='/' element={<OQueE />} />
@@ -18,7 +24,7 @@ function AppRouter() {
 			{/* <QuemSomos />
 			<Canais />
 			<Cases /> */}
-		</Router>
+		</HashRouter>
 	)
 }
 
