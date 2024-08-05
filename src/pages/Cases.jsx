@@ -12,7 +12,7 @@ export default function Cases() {
 						<h1 className='text-rose-600 text-6xl mb-10 lg:mb-0'>Cases</h1>
 						<div className='flex flex-col lg:grid lg:grid-cols-4 lg:grid-rows-2 mt-10'>
 							{/* <!-- Primeira Coluna, Primeira Linha --> */}
-							<div className='relative lg:col-span-1 lg:w-full'>
+							<div className='relative hidden lg:block lg:col-span-1 lg:w-full'>
 								<img
 									src='./assets/Cases1x1.png'
 									alt='Image 1'
@@ -28,11 +28,12 @@ export default function Cases() {
 										className='w-full h-full object-cover'
 									/>
 								</div>
-								<div className='bg-rose-600 text-white p-4 flex-1 flex items-top space-x-4'>
-									<h3 className='text-white text-2xl leading-6 tracking-tighter'>
+
+								<div className='bg-rose-600 text-white p-4 flex-1 flex flex-col sm:flex-row items-top space-y-4 sm:space-y-0 sm:space-x-4'>
+									<h3 className='text-white text-2xl leading-6 tracking-tighter lg:w-1/4 sm:w-full'>
 										Lançamento da campanha Bye bye, Bronquiolite
 									</h3>
-									<p className='text-blue-950 w-[253.333333%]'>
+									<p className='text-blue-950 sm:w-full'>
 										<strong>
 											Em parceria com a farmacêutica AstraZeneca, desenvolvemos
 											uma série especial para o lançamento da campanha "Bye bye,
