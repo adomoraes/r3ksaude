@@ -19,14 +19,14 @@ export default function Footer() {
 			<div className='container mx-auto px-6 lg:px-8 py-6'>
 				<div className='flex flex-col lg:flex-row items-center justify-between'>
 					<div className='flex lg:flex-1 mb-4 lg:mb-0'>
-						<NavLink to='/' className='-m-1.5 p-1.5'>
+						<div to='/' className='-m-1.5 p-1.5'>
 							<span className='sr-only'>R3K</span>
 							<img
 								alt='R3K Logo'
 								src='./assets/logo.png'
 								className='h-8 w-auto'
 							/>
-						</NavLink>
+						</div>
 					</div>
 					<div className='flex lg:flex-1 justify-center lg:justify-end'>
 						<a

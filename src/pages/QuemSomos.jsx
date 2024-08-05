@@ -99,8 +99,6 @@ export default function QuemSomos() {
 					</div>
 				</div>
 			</AnimatedPage>
-
-			<Footer />
 		</>
 	)
 }

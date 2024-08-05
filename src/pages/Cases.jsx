@@ -91,7 +91,6 @@ export default function Cases() {
 					</div>
 				</div>
 			</AnimatedPage>
-			<Footer />
 		</>
 	)
 }

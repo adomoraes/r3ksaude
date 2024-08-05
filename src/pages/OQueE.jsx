@@ -74,7 +74,6 @@ export default function OQueE() {
 					</div>
 				</div>
 			</AnimatedPage>
-			<Footer />
 		</>
 	)
 }
