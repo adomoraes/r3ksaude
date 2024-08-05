@@ -10,7 +10,7 @@ export default function QuemSomos() {
 					<div className='mx-auto max-w-6xl py-20'>
 						<h1 className='text-rose-600 text-6xl'>Quem Somos</h1>
 						<div className='flex flex-col md:flex-row'>
-							<div className='md:basis-1/4 p-4'>
+							<div className='order-2 md:order-1 md:basis-1/4 p-4'>
 								<div className='text-left'>
 									<h3 className='text-blue-950 text-4xl w-3/4 mt-10'>
 										Renato Kfouri
@@ -48,7 +48,7 @@ export default function QuemSomos() {
 								</div>
 							</div>
 
-							<div className='md:basis-1/2 p-4 mt-10'>
+							<div className='order-1 md:order-2 md:basis-1/2 p-4 mt-10'>
 								<div className='text-left'>
 									<img
 										src='./assets/QuemSomos.png'
@@ -58,7 +58,7 @@ export default function QuemSomos() {
 								</div>
 							</div>
 
-							<div className='md:basis-1/4 p-4'>
+							<div className='order-3 md:order-3 md:basis-1/4 p-4'>
 								<div className='text-left'>
 									<h3 className='text-blue-950 text-4xl w-3/4 mt-10'>
 										Rosana Richtmann
