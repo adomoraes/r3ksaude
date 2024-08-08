@@ -7,7 +7,7 @@ import Cases from "./pages/Cases"
 
 function AppRouter() {
 	return (
-		<Router basename='/r3k/'>
+		<Router basename='/r3ksaude/'>
 			<Navbar />
 			<Routes>
 				<Route path='/' element={<OQueE />} />
