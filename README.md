@@ -5,7 +5,7 @@ Este repositório contém o código-fonte para o desenvolvimento de uma SPA com 
 **Produção**
 
 ```bash
-https://adomoraes.github.io/r3k/
+https://adomoraes.github.io/r3ksaude/
 ```
 
 ## Tecnologias Utilizadas
@@ -14,6 +14,7 @@ https://adomoraes.github.io/r3k/
 - **Vite**: Ferramenta de build rápida e otimizada para projetos web.
 - **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
 - **React Router**: Biblioteca para gerenciamento de rotas em aplicações React.
+- **Framer Motion**: Biblioteca para animações em aplicações React.
 
 ## Funcionalidades
 
@@ -66,8 +67,8 @@ https://adomoraes.github.io/r3k/
 3. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/adomoraes/r3k.git
-   cd brasilcnpj
+   git clone https://github.com/adomoraes/r3ksaude.git
+   cd r3ksaude
    ```
 
 4. **Instale as dependências:**
