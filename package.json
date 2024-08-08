@@ -1,8 +1,8 @@
 {
-	"name": "r3k",
+	"name": "r3ksaude",
 	"private": true,
 	"version": "0.1.0",
-	"homepage": "https://adomoraes.github.io/r3k/",
+	"homepage": "https://adomoraes.github.io/r3ksaude/",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
